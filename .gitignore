@@ -1,0 +1,25 @@
+# --- Secrets & personal settings (NEVER commit these) ---
+config.ini
+*.key
+.env
+
+# --- Generated at runtime ---
+logs/
+backup/
+translation_cache*.json
+*.tmp
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Private folder ---
+/Sonstiges/

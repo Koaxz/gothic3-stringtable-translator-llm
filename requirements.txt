@@ -1,0 +1,2 @@
+# Only needed by stringtable_translator.py (the check tool works without it)
+deepl>=1.16
